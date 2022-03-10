@@ -1,0 +1,20 @@
+<div class="contaider">
+    <mat-card [style]= "'background-color: ' + background + ';' +  'color: ' + colort + ';' " class="app-component">
+    
+        <mat-card-header class="header">
+            <mat-card-title class="titulo">{{titulo}}</mat-card-title><!--Fazer a estilização nos filhos-->
+            <mat-card-subtitle [style]="'color: ' + precoc  + ';'" class="preco">{{preco}}</mat-card-subtitle>
+        </mat-card-header>
+        
+        <mat-card-content class="conteudo">{{conteudo1}}<br><br> {{conteudo2}}<br><br> {{conteudo3}}<br></mat-card-content>
+        
+        <button [style]="'border-color:' + btnc +  ';'" mat-button color = 'Basic' class="btn" mat-stroked-button (click)="ClicarBotao()">Learn More</button>
+    
+    </mat-card>
+</div>
+ 
+
+
+
+
+

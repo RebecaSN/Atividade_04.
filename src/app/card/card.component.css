@@ -1,0 +1,42 @@
+.app-component{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    width: 200px;
+    height: 300px
+}
+  
+.titulo{
+   text-align: center;
+
+}
+.preco{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.contaider{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+    
+}
+.conteudo {
+    
+
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    
+
+}
+
+
+
+
